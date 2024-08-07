@@ -80,7 +80,7 @@ Resources:
                     }
                 });
             }
-        Runtime: nodejs12.x
+        Runtime: nodejs16.x
     SNSEmailReceiveTopic:
       Type: AWS::SNS::Topic
       Properties:
